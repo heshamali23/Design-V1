@@ -1,0 +1,66 @@
+/* Start Main Rulez */
+body {
+    height:4000px
+}
+.container {
+    width:1170px;
+    margin:auto
+}
+
+/* End Main Rulez */
+/* Start Header */
+.header .slider {
+    background-color:#EEE;
+    height:500px
+}
+.header .navbar {
+    background-color:#0A6D91;
+    color:#fff;
+    overflow:hidden
+}
+.header .navbar h2 {float:left;text-transform:uppercase}
+.header .navbar h2 span {color:#5CED8C}
+.header .navbar ul {
+    list-style:none;
+    padding-left:0;
+    overflow:hidden;
+    float:right
+}
+.header .navbar ul li {float:left;padding:10px}
+/* End Header */
+/* Start Features */
+.features {
+    overflow:hidden;
+    padding-top:30px;
+    padding-bottom:30px
+}
+.features .feat {
+    float:left;
+    width:33.33333%;
+    height:180px
+}
+/* End Features */
+/* Start About me */
+.about-me {
+    background-color:#64B9BC;
+    overflow:hidden
+}
+.about-me .image {
+    float:left;
+    width:40%
+}
+.about-me .image img {width:100%}
+.about-me .info {
+    float:left;
+    width:60%
+}
+.about-me .info .hobbies {
+    overflow:hidden;
+    margin:20px
+}
+.about-me .info .hobbies > div {
+    float:left;
+    width:50%;
+    min-height:100px
+}
+/* End About me */
