@@ -65,36 +65,81 @@ body {
 .features {
     overflow:hidden;
     padding-top:30px;
-    padding-bottom:30px
+    padding-bottom:50px
 }
 .features .feat {
     float:left;
     width:33.33333%;
     height:180px
 }
+.features .feat h2{
+    color:#37A1CE
+}
+.features .feat p {
+    line-height:1.7;
+    color:#22968C;
+    padding:0 20px 0 0
+}
 /* End Features */
 /* Start About me */
 .about-me {
-    background-color:#64B9BC;
+    background-color:#2DA6C4;
     overflow:hidden
 }
 .about-me .image {
     float:left;
-    width:40%
+    width:40%;
 }
 .about-me .image img {width:100%}
 .about-me .info {
     float:left;
     width:60%
 }
+.about-me .info h2 {
+    margin:15px 0 20px 50px;
+    color:#1E2121
+}
+.about-me .info > p {
+    margin:0 0 10px 50px;
+    line-height:1.7;
+    color:#FFFFFF
+}
+
+.about-me .info .hobbies p {
+    line-height:1.7;
+    color:#FFFFFF
+}
 .about-me .info .hobbies {
     overflow:hidden;
-    margin:20px
+    margin:15px 0 0 50px
 }
-.about-me .info .hobbies > div {
+.about-me .info .hobbies .content {
     float:left;
     width:50%;
-    min-height:100px
+    min-height:100px;
+    overflow:hidden
+}
+.about-me .info .hobbies .content h3 {
+    color:#171819
+}
+.about-me .info .hobbies .content .icon {
+    float:left;
+    width:12%;
+    margin-right:5%
+}
+.about-me .info .hobbies .content .icon img {
+    max-width:100%;
+    margin:20px 20px 0 0
+}
+.about-me .info .hobbies .content .text {
+    float:left;
+    width:83%
+}
+.about-me .info .hobbies .content .text h3 {
+    margin-bottom:5px
+}
+.about-me .info .hobbies .content .text p {
+    margin-top:0
 }
 /* End About me */
 /* Start My Skills */
