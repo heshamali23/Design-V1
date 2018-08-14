@@ -30,11 +30,12 @@ body {
 }
 .header .slider .intro button {
     background:none;
-    color:#59D0E0;
+    color:#FFFFFF;
     margin-top:30px;
     font-size:30px;
     font-weight:bold;
     border:5px solid #ED386E;
+    border-radius:10px;
     padding:10px 20px
     
 }
@@ -76,7 +77,6 @@ body {
     color:#37A1CE
 }
 .features .feat p {
-    line-height:1.7;
     color:#22968C;
     padding:0 20px 0 0
 }
@@ -101,12 +101,10 @@ body {
 }
 .about-me .info > p {
     margin:0 0 10px 50px;
-    line-height:1.7;
     color:#FFFFFF
 }
 
 .about-me .info .hobbies p {
-    line-height:1.7;
     color:#FFFFFF
 }
 .about-me .info .hobbies {
@@ -153,13 +151,59 @@ body {
     width:50%;
     float:left
 }
+.my-skills .skills h2 {
+    margin:15px 0 20px 50px;
+    color:#1BA050
+}
+.my-skills .skills p {
+    margin:0 0 10px 50px;
+    color:#3489D3
+}
+.my-skills .skills button {
+    background:none;
+    border:3px solid #188DBF;
+    border-radius:10px;
+    padding:10px 30px;
+    color:#188DBF;
+    margin-left:50px
+}
+.my-skills .progress .teq {
+    margin-left:50px
+}
+.my-skills .progress .teq h3 {
+    color:#1BA050
+}
+.my-skills .progress .teq div {
+    background-color:#AFBBBC;
+    height:25px
+}
+.my-skills .progress .teq div span {
+    background-color:#35B0CC;
+    height:25px;
+    display:block;
+    line-height:25px;
+    text-align:right;
+    color:#FFF;
+    font-weight:bold
+}
 /* End My Skills */
 /* Start Resume */
 .resume {
-    background-color:#3DE2A0;
-    padding-top:30px;
-    padding-bottom:30px;
+    background-color:#3CD2E0;
+    padding-top:50px;
+    padding-bottom:70px;
     text-align:center
+}
+.resume p {
+    color:#FFF
+}
+.resume button {
+    margin-top:30px;
+    background:none;
+    padding:10px 30px;
+    border:3px solid #4264DD;
+    border-radius:10px;
+    color:#0033ED
 }
 /* End Resume */
 /* Start My Education */
@@ -233,12 +277,31 @@ body {
 
 
 
+/* Start My Framework */
+.my-button {
+    background:none;
+    padding:10px 30px;
+    border:3px solid #931315;
+    border-radius:10px;
+    color:#FFF
+}
+.my-pragraph {
+    line-height:1.6;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold
+    
+}
+.my-head2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold
+}
 
 
 
 
 
 
+/* End My Framework */
 
 
 
