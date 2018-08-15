@@ -212,25 +212,100 @@ body {
     padding-bottom:30px;
     overflow:hidden
 }
-.my-education .main,
-.my-education .exp {
+.my-education .main {
     width:50%;
+    margin-right:5%;
     float:left
+}
+
+.my-education .main h2 {
+    margin:15px 0 20px 50px;
+    color:#37A1CE
+}
+.my-education .main p {
+    margin:15px 0 20px 50px;
+    color:#22968C
+}
+.my-education hr {
+    margin:20px 0;
+    background-color:#F263A1;
+    height:2px;
+    border:0
+}
+.my-education .exp {
+    width:45%;
+    float:left
+}
+.my-education .exp h3 {
+    margin-top:60px;
+    margin-bottom:8px;
+    color:#3795E8
+}
+.my-education .exp span {
+    display:block;
+    margin-top:8px
+}
+.my-education .exp span:first-of-type {
+    color:#8C9393
+}
+.my-education .exp span:last-of-type {
+    color:#FFF;
+    background-color:#31CEA9;
+    display:inline-block;
+    padding:7px
+}
+.my-education .exp hr {
+    margin:20px 0;
+    background-color:#F263A1;
+    height:1px;
+    border:0
+}
+.my-education .exp p {
+    color:#1B9686
 }
 /* End My Education */
 /* Start Testimonials */
 .testimonials {
     background-color:#3DE2A0;
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top:50px;
+    padding-bottom:50px;
     text-align:center
+}
+.testimonials p {
+    color:#25319B;
+    font-size:23px;
+}
+.testimonials h3 {
+    color:#891B47;
+    margin-bottom:30px
+}
+.testimonials ul {
+    list-style:none;
+    padding-left:0
+}
+.testimonials ul li {
+    width:10px;
+    height:10px;
+    border:2px solid #AF1D64;
+    display:inline-block;
+    cursor:pointer
+}
+.testimonials ul li.active,
+.testimonials ul li:hover {
+    background-color:#AF1D64
 }
 /* End Testimonials */
 /* Start Portfolio */
 .portfolio {
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top:50px;
+    padding-bottom:70px;
     text-align:center
+}
+.portfolio h2 {
+    color:#37A1CE
+}
+.portfolio p {
+    color:#22968C
 }
 .portfolio .our-work {
     overflow:hidden
@@ -242,36 +317,94 @@ body {
 }
 .portfolio .our-work > div img {
     width:92%;
-    margin:10px
+    margin:10px;
+    padding:3px;
+    background-color:#FFF;
+    border:2px solid #2BC491
 }
 /* End Portfolio */
 /* Start Contact Me */
 .contact {
-    background-color:#3E82E0;
-    overflow:hidden
+    background-color:#35444F;
+    overflow:hidden;
+    padding-top:50px;
+    padding-bottom:70px
+}
+.contact .info {
+    width:50%;
+    float:left;
+    margin-right:5%
 }
 .contact h2 {
-    color:#ffffff
+    color:#53C3EF;
+    margin-left:40px
 }
 .contact p {
-    color:#B0F2EE
+    color:#3DE5D4;
+    margin-left:40px
 }
-.contact .info,
+.contact p strong {
+    color:#53C3EF
+}
 .contact .form {
-    width:50%;
+    width:45%;
     float:left
+}
+.contact .form label {
+    display:block;
+    color:#53C3EF;
+    margin-bottom:10px
+}
+.contact .form input[type="text"] {
+    background-color:#B6C4C4;
+    color:#1E7499;
+    padding:5px;
+    border:0;
+    width:80%;
+    margin-bottom:10px
+}
+.contact .form textarea {
+    background-color:#FFFFFF;
+    color:#1E9961;
+    padding:5px;
+    border:0;
+    width:80%;
+    margin-bottom:10px;
+    height:300px
+}
+.contact .form input[type="submit"] {
+    background-color:#0A6D91;
+    color:#FFF;
+    padding:10px 20px;
+    border:0;
+    border-radius:10px;
+    margin-top:10px;
+    
 }
 /* End Contact Me */
 /* Start Footer */
 .footer {
-    background-color:#B21A48;
+    background-color:#4C575B;
     color:#FFF;
-    padding:20px 0;
-    text-align:center
+    padding:10px 0;
+    text-align:center;
+    overflow:hidden
 }
-
-
-
+.footer span {
+    float:left
+}
+.footer ul {
+    list-style:none;
+    padding-left:0;
+    margin:0;
+    float:right
+}
+.footer ul li {
+    display:inline-block
+}
+.footer ul li img {
+    width:25px
+}
 
 /* End Footer */
 
